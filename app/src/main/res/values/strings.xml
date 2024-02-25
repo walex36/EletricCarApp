@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ElectricCarApp</string>
+    <string name="electric_car">Electric Car</string>
+    <string name="tab_cars">Cars</string>
+    <string name="tab_favorites">Favorites</string>
+    <string name="card_car_price">Price</string>
+    <string name="card_car_battery">Battery</string>
+    <string name="card_car_power">Power</string>
+    <string name="card_car_recharge">Recharge</string>
+    <string name="calculate_autonomy">Calculate Autonomy</string>
+    <string name="price_kwh">Price Kwh</string>
+    <string name="km_traveled">Km Traveled</string>
+    <string name="calculate">Calculate</string>
+    <string name="no_internet_connection">No internet connection</string>
+
+    <string name="saved_calculate">saved_cal</string>
+    <string name="card_car_name">name</string>
+    <string name="empty_favorites">Empty Favorites</string>
+</resources>
