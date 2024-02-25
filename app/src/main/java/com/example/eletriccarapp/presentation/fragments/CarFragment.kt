@@ -70,7 +70,7 @@ class CarFragment : Fragment() {
         }
 
         adapterAux.carItemLister = { car: Car ->
-            var repository = CarRepository(requireContext())
+            val repository = CarRepository(requireContext())
             if (car.isFavorite) {
                 repository.saveIfNotExist(car)
             } else {
@@ -126,7 +126,7 @@ class CarFragment : Fragment() {
     }
 
     private fun validCarsIsFavorite(cars: List<Car>) {
-        var result = arrayListOf<Car>()
+        val result = arrayListOf<Car>()
         val repository = CarRepository(requireContext())
 
         for (car in cars) {
@@ -147,7 +147,7 @@ class CarFragment : Fragment() {
     }
 
     private fun checkNetwork(context: Context?): Boolean {
-        var connectivityManager =
+        val connectivityManager =
             context?.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
